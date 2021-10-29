@@ -1,0 +1,80 @@
+body{
+  margin:0;
+margin:0;
+font-variant: traditional;
+    font-family: sans-serif;
+
+}
+
+header {
+  display: flex;
+  flex-wrap: nowrap;
+  align-items: center;
+  justify-content: space-between;
+  padding: 25px;
+background-color:#000000;
+height: 80px;}
+header .logo{
+  margin: 25px;
+
+}
+
+div {
+  display: flex;
+      align-items: center;
+}
+div ul{
+}
+div ul li{
+}
+div ul li a{
+}
+header .menu{
+
+}
+header .lupa{
+}
+nav
+    background-image: url(fondo.jpg)
+{background-color: #999999;
+  height: 450px;}
+  {
+  display: flex;
+    align-items: center;
+    flex-wrap: nowrap;
+    justify-content: flex-end;}
+
+h1{
+    margin-block-end: 0;
+    margin-block-start: 0;
+    margin-left: 50px;
+    padding-top: 50px;
+}
+div{
+margin-left: 50px;
+    display: flex;
+    align-items: center;}
+
+    div{background-image: url(fondo.jpg);}
+
+section{
+
+}
+main{
+
+}
+footer{
+  background-color: slategray;
+    color: white;
+    text-align: center;
+    padding: 20px 20px 60px;
+
+}
+
+
+@media screen and (max-width: 900px){
+  nav{background-color: #8D97A1}
+
+  @media screen and (min-width: 400px) and (max-width: 1000px){
+    nav{flex-direction: column;}
+  }
